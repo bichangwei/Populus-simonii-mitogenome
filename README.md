@@ -18,7 +18,7 @@ This repository contains some Perl scripts for phylogenetic analysis of mitochon
    
    [ConservedGene.txt](https://github.com/bichangwei/Populus-simonii-mitogenome/files/8579206/ConservedGene.txt)
 
-3. Step2_Generate_the_phylogeny_fa.pl
+2. Step2_Generate_the_phylogeny_fa.pl
 
    Usage: perl Step2_Generate_the_phylogeny_fa.pl -g ConservedGene.txt -o Prefix
    
@@ -27,5 +27,8 @@ This repository contains some Perl scripts for phylogenetic analysis of mitochon
    (1) One file named $prefix.phylogeny.fa in Fasta format for constructing the phylogenetic tree.
     
    (2) IQTREE results. The parameters for IQTREE are: iqtree -s $output.muscle.alignment.afa -m MFP -B 1000 --bnni -T AUTO
+   
+3. All the data can be found in the Example directory.
+   
    
    
